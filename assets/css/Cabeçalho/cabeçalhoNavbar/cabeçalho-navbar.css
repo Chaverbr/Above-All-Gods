@@ -1,0 +1,13 @@
+.cabeçalho-navbar {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone-lista {
+    margin-bottom: 5px;
+    transform: scale(220%);
+    color: #f7f7f7;
+}
