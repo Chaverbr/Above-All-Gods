@@ -5,16 +5,20 @@
 }
 
 .progressaoAtual h3 {
-    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 1px #000;
+    font-size: 18px;
     text-align: center;
-    color: #f2f2f2;
+    color: #eaeaea;
 }
 
 .tabelaCultivo {
     text-align: center;
     width: 100%;
     font-family: 'Roboto', sans-serif;
+    margin-top: 12px;
     margin-bottom: 72px;
+    border-collapse: collapse;
 }
 
 .tabelaCultivo-cabeçalho tr td {
@@ -26,6 +30,7 @@
     background-color: rgba( 0, 0, 0, 0.7);
     color: #f2f2f2;
 }
+
 
 .tabelaCultivo-corpo tr td{
     padding: 8px;
