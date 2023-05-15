@@ -2,6 +2,7 @@ body {
     background-image: url(../../img/salaoriental.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: local;
+    background-attachment: fixed;
     background-position: center left;
+    scroll-behavior: smooth;
 }
