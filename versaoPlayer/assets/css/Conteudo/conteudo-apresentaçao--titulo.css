@@ -1,0 +1,16 @@
+.conteudo-apresentaçao--titulo {
+    font-size: 26px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: -0.5px;
+    color: #fafafa;
+    text-shadow: 2px 2px 3px black;
+}
+
+.conteudo-apresentaçao--subtitulo {
+    font-size: 18px;
+    width: 280px;
+    margin: 24px auto auto auto;
+    text-align: center;
+    color: #f2f2f2;
+}

@@ -1,0 +1,8 @@
+.conteudoLogin {
+    padding-top: 32px;
+    height: 88vh;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

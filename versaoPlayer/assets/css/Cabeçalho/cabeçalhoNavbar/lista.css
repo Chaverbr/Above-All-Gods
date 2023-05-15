@@ -1,0 +1,38 @@
+.lista {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.lista a {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.lista li{
+    margin-top: 4px;
+    font-size: 18px;
+    padding: 8px;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+.lista li:nth-child(n+4) {
+    border: none;
+}
+
+.lista li:nth-child(n+1) {
+    border-top: 1px solid #bcbcbc;
+}
+
+.displayOn {
+    display: block;
+}
+
+.displayOff {
+    display: none;
+}
