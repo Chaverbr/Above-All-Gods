@@ -59,6 +59,11 @@
     color: #adff2f;
 }
 
+.ClasseSaint {
+    color: #ffe600;
+    text-shadow: 3px 3px 9px #ffee51;
+}
+
 .Linha-subtitulo {
     color: #e7e7e7;
     background-color: rgba( 0, 0, 0, 0.6);
