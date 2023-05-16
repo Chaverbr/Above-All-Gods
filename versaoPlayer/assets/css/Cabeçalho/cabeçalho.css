@@ -1,6 +1,7 @@
 .cabeçalho {
     padding-top: 12px;
     padding-left: 20px;
+    width: 100%;
     height: 12vh;
     display: flex;
     justify-content: space-between;

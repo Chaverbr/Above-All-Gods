@@ -2,6 +2,8 @@
     width: 100%;
     height: 100%;
     margin-top: 64px;
+    margin-bottom: 112px;
+    padding-top: 32px;
 }
 
 .progressaoAtual h3 {
