@@ -17,6 +17,7 @@
 .lista li{
     margin-top: 4px;
     font-size: 18px;
+    font-weight: 600;
     padding: 8px;
     border-bottom: 1px solid #bcbcbc;
 }
