@@ -1,0 +1,8 @@
+.cabeçalho-titulo {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -1px;
+    margin-left: 20px;
+    color: #f7f7f7;
+    text-shadow: 3px 3px 5px black;
+}

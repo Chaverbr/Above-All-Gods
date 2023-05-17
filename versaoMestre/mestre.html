@@ -5,20 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <link rel="shortcut icon" href="./assets/favicon/favicon72X72.png" type="image/x-icon">
+
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/Conteudo/background.css">
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
 
     <title>Above All Gods</title>
 
     <!-- CSS do cabeçalho -->
     <link rel="stylesheet" type="text/css" href="./assets/css/Cabeçalho/cabeçalho.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/Cabeçalho/cabeçalho-titulo.css">
-    <link rel="stylesheet" href="./assets/css/Cabeçalho/cabeçalhoNavbar/cabeçalho-navbar.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/Cabeçalho/cabeçalhoNavbar/cabeçalho-navbar.css">
 
 
     <!-- CSS do conteúdo -->
     <link rel="stylesheet" type="text/css" href="./assets/css/Conteudo/conteudo.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/Conteudo/apresentacao.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/Conteudo/cultivo.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/Conteudo/caixaDeConteudo.css">
+
+    
+
 
 
 
@@ -26,24 +33,48 @@
 </head>
 <body>
     <header class="cabeçalho">
-        <h1 class="cabeçalho-titulo">Above All Gods</h1>
+        <h1><a class="cabeçalho-titulo" href="../index.html">Above All Gods</a></h1>
         
         <nav class="cabeçalho-navbar">
-
-            <svg class="icone-lista" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <svg id="icone" class="icone-lista" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-              </svg>
-
-             <!-- <ul>
-                <li>História</li>
-                <li>Items</li>
-                <li>Conhecimentos</li>
-                <li>Tabela de Domínios</li>
-            </ul> -->
+            </svg>
         </nav>
     </header>
 
     <main class="conteudo">
+
+        <section class="apresentacao">
+            <h2 class="apresentacao-titulo">Área do Mestre</h2>
+            <h3 class="apresentacao-subtitulo">Onde Tudo sobre o sistema está guardado</h3>
+        </section>
+
+        <section class="cultivo">
+            <h3 class="cultivo-titulo">Documentação do Cultivo</h3>
+
+            <div class="caixaDeConteudo">
+                <div class="caixaDeConteudo-top">
+                    <img class="livros" id="livroDominio" src="./assets/img/Livros/livroDominios1.png" alt="Livro">
+                </div>
+
+                <div class="caixaDeConteudo-bottom">
+                    <h4 class="caixaDeConteudo-titulo">Domínios</h4>
+                    <h5 class="caixaDeConteudo-subtitulo">Documentação dos das leis que rege os domínios</h5>
+                </div>
+            </div>
+
+
+            <div class="caixaDeConteudo">
+                <div class="caixaDeConteudo-top">
+                    <img class="livros" id="livroCultivo" src="./assets/img/Livros/livroDoCultivo.png" alt="Livro">
+                </div>
+
+                <div class="caixaDeConteudo-bottom">
+                    <h4 class="caixaDeConteudo-titulo">Cultivo</h4>
+                    <h5 class="caixaDeConteudo-subtitulo">Documentação dos mistérios do cultivo</h5>
+                </div>
+            </div>
+        </section>
 
     </main>
 

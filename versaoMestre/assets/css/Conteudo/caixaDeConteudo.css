@@ -1,0 +1,53 @@
+.caixaDeConteudo {
+    width: 220px;
+    height: 240px;
+}
+
+.caixaDeConteudo-top {
+    width: 100%;
+    height: 30%;
+    background-color: rgba(189, 81, 39, 0.6);
+    border-bottom: 1px solid #313131;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: relative;
+}
+
+.caixaDeConteudo-bottom {
+    width: 100%;
+    height: 70%;
+    background-color: rgba(110, 110, 110, 0.6);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding-top: 48px;
+    text-align: center;
+}
+
+.caixaDeConteudo-titulo {
+    color: #f2f2f2;
+    font-family: 'Laton', sans-serif;
+    margin-bottom: 12px;
+}
+
+.caixaDeConteudo-subtitulo {
+    color: #f2f2f2;
+    font-family: 'Laton', sans-serif;
+    width: 180px;
+    margin: auto;
+}
+
+#livroDominio {
+    width: 120px;
+    height: 160px;
+    position: absolute;
+    top: -20px;
+    left: 55px;
+}
+
+#livroCultivo {
+    width: 83px;
+    height: 98px;
+    position: absolute;
+    top: 10px;
+    left: 72px;
+}

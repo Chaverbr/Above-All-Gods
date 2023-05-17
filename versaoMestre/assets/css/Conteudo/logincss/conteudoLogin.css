@@ -1,0 +1,54 @@
+.conteudoLogin {
+    padding-top: 224px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding-bottom: 260px;
+}
+
+
+.titulo {
+    margin-top: 16px;
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    text-shadow: 5px 5px 2px #000;
+    letter-spacing: 2px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 144px;
+}
+
+.formulario input[type=text] {
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 230px;
+    padding: 8px;
+    color: #f7f7f7;
+    text-align: center;
+}
+
+.formulario input[type=submit] {
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 115px;
+    padding: 8px;
+    color: #f7f7f7;
+    text-align: center;
+}
