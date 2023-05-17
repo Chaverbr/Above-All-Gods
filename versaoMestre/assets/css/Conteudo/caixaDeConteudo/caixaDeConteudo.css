@@ -1,0 +1,22 @@
+.caixaDeConteudo {
+    width: 216px;
+    height: 316px;
+    border: 1px solid #c2c2c2;
+    border-radius: 8px;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.livroDominio {
+    position: absolute;
+    top: -160px;
+    left: -50px;
+    transform: scale(70%);
+}
+
+.livroCultivo {
+    transform: scale(34%);
+    position: absolute;
+    top: -195px;
+    left: -190px;
+}

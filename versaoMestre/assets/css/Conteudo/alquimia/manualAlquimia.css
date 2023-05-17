@@ -1,0 +1,23 @@
+.manualAlquimia {
+    width: 216px;
+    height: 316px;
+    border: 1px solid #c2c2c2;
+    border-radius: 8px;
+    padding: 16px;
+    cursor: pointer;
+}
+
+
+.livroAlquimia {
+    transform: scale(50%);
+    position: absolute;
+    top: -135px;
+    left: -78px;
+}
+
+.livroErvas {
+    transform: scale(50%);
+    position: absolute;
+    top: -135px;
+    left: -78px;
+}

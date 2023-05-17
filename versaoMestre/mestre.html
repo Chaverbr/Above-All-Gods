@@ -21,13 +21,29 @@
     <!-- CSS do conteúdo -->
     <link rel="stylesheet" type="text/css" href="./assets/css/Conteudo/conteudo.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/Conteudo/apresentacao.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/Conteudo/imagem.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/Conteudo/caixaContainerTitulos.css">
+
+    <!-- Section de cultivo -->
     <link rel="stylesheet" type="text/css" href="./assets/css/Conteudo/cultivo.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/Conteudo/caixaDeConteudo.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/Conteudo/caixadeConteudo/caixaDeConteudo.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/Conteudo/caixaConteiner.css">
 
+
+
+
+    <!-- section de tecnicas -->
+
+
+
+
+
+    <!-- section de alquimia -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/Conteudo/alquimia/alquimia.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/Conteudo/alquimia/alquimia-titulo.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/Conteudo/alquimia/manualAlquimia.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/Conteudo/alquimia/manualErvas.css">
     
-
-
-
 
 
 </head>
@@ -52,28 +68,74 @@
         <section class="cultivo">
             <h3 class="cultivo-titulo">Documentação do Cultivo</h3>
 
-            <div class="caixaDeConteudo">
-                <div class="caixaDeConteudo-top">
-                    <img class="livros" id="livroDominio" src="./assets/img/Livros/livroDominios1.png" alt="Livro">
+            <div class="caixaConteiner">
+
+                <div class="caixaDeConteudo" id="dominios">
+   
+                    <div class="imagem">
+                        <img class="livroDominio" src="./assets/img/Livros/livroDominios1.png" alt="Livro">
+                    </div>
+
+                    <div class="caixaContainerTitulos">
+                        <h4 class="caixaContainer-titulo">Domínios</h4>
+                        <h5 class="caixaContainer-subtitulo">Documentação das leis que rege os domínios</h5>
+                    </div>
+
                 </div>
 
-                <div class="caixaDeConteudo-bottom">
-                    <h4 class="caixaDeConteudo-titulo">Domínios</h4>
-                    <h5 class="caixaDeConteudo-subtitulo">Documentação dos das leis que rege os domínios</h5>
+                <div class="caixaDeConteudo" id="cultivo">
+
+                    <div class="imagem">
+                        <img class="livroCultivo" src="./assets/img/Livros/livroDoCultivo.png" alt="Livro">
+                    </div>
+
+                    <div class="caixaContainerTitulos">
+                        <h4 class="caixaContainer-titulo">Cultivo</h4>
+                        <h5 class="caixaContainer-subtitulo">Documentação dos mistérios do Dao Marcial</h5>
+                    </div>
+
                 </div>
+                
+            </div>
+        </section>
+
+
+
+        <section class="alquimia">
+
+            <h3 class="alquimia-titulo">Biblioteca das Técnicas e Artes Secretas</h3>
+
+            <div class="caixaConteiner">
+
+                <div class="manualAlquimia">
+
+                    <div class="imagem">
+                        <img class="livroAlquimia" src="assets/img/Livros/livroDaAlquimia.png" alt="Livro da Alquimia">
+                    </div>
+
+                    <div class="caixaContainerTitulos">
+                        <h4 class="caixaContainer-titulo">Manual da Alquimia</h4>
+                        <h5 class="caixaContainer-subtitulo">Documentação das leis que rege os princípios alquímicos</h5>
+                    </div>
+
+                </div>
+
+
+                <div class="manualErvas">
+
+                    <div class="imagem">
+                        <img class="livroErvas" src="assets/img/Livros/livroDaAlquimia.png" alt="">
+                    </div>
+
+                    <div class="caixaContainerTitulos">
+                        <h4 class="caixaContainer-titulo">Ervas Espirituais</h4>
+                        <h5 class="caixaContainer-subtitulo">Bibliografia das Ervas Espirituais e seus atributos</h5>
+                    </div>
+
+                </div>
+
             </div>
 
-
-            <div class="caixaDeConteudo">
-                <div class="caixaDeConteudo-top">
-                    <img class="livros" id="livroCultivo" src="./assets/img/Livros/livroDoCultivo.png" alt="Livro">
-                </div>
-
-                <div class="caixaDeConteudo-bottom">
-                    <h4 class="caixaDeConteudo-titulo">Cultivo</h4>
-                    <h5 class="caixaDeConteudo-subtitulo">Documentação dos mistérios do cultivo</h5>
-                </div>
-            </div>
         </section>
 
     </main>

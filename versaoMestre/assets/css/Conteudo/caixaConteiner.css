@@ -1,0 +1,9 @@
+.caixaConteiner {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 160px;
+    align-items: center;
+}
