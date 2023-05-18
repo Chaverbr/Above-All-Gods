@@ -9,14 +9,14 @@
 
 .livroDominio {
     position: absolute;
-    top: -160px;
-    left: -50px;
-    transform: scale(70%);
+    top: -60px;
+    left: -35px;
+    transform: scale(60%);
 }
 
 .livroCultivo {
-    transform: scale(34%);
+    transform: scale(65%);
     position: absolute;
-    top: -195px;
-    left: -190px;
+    top: -30px;
+    left: -27px;
 }

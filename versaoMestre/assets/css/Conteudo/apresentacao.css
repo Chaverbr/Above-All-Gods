@@ -16,7 +16,8 @@
 }
 
 .apresentacao-subtitulo {
-    width: 260px;
+    width: 100%;
+    max-width: 260px;
     color: #f7f7f7;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;

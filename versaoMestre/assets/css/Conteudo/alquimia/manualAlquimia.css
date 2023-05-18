@@ -9,15 +9,8 @@
 
 
 .livroAlquimia {
-    transform: scale(50%);
+    transform: scale(45%);
     position: absolute;
-    top: -135px;
-    left: -78px;
-}
-
-.livroErvas {
-    transform: scale(50%);
-    position: absolute;
-    top: -135px;
-    left: -78px;
+    top: -110px;
+    left: -35px;
 }

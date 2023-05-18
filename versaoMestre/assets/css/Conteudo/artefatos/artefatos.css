@@ -1,0 +1,11 @@
+.artefatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    width: 100%;
+    height: max-content;
+    padding: 96px 0px;
+    background-color: rgba(0, 0, 0, 0.65);
+    box-sizing: content-box;
+}

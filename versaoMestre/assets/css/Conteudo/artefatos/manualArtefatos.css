@@ -1,17 +1,15 @@
-.manualErvas {
+.manualArtefatos {
     width: 216px;
     height: 316px;
     border: 1px solid #c2c2c2;
     border-radius: 8px;
     padding: 16px;
     cursor: pointer;
-    padding-bottom: 20px;
 }
 
-
-.livroErvas {
-    transform: scale(75%);
+.livroArtefatos {
+    transform: scale(65%);
     position: absolute;
-    top: -20px;
+    top: -40px;
     left: -35px;
 }
